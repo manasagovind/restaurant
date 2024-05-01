@@ -1,0 +1,111 @@
+.categoryDishCont {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid #f1e4e4;
+  padding: 15px;
+  border-radius: 8px;
+  align-self: center;
+  font-family: 'Roboto';
+}
+.caloriCont{
+  align-self:center;
+  font-size:22px;
+  font-weight:600;
+  color:rgb(252, 210, 71);
+}
+.addtoCart {
+  border: none;
+  background-color: rgb(49, 49, 250);
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 22px;
+}
+.butt1 {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 20%;
+}
+.customize {
+  color: rgb(79, 79, 241);
+  font-size: 24px;
+}
+.notAvailable {
+  color: rgb(219, 71, 71);
+  font-size: 18px;
+}
+.disA {
+  width: 5%;
+}
+.incDecCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.dishDesc {
+  font-style: Italic;
+  font-size: 22px;
+}
+.price {
+  color: #000000;
+  font-weight: 600;
+}
+.imagee {
+  width: 25%;
+}
+.dishHead {
+  font-family: 'Roboto';
+  font-size: 28px;
+  color: #5d8826;
+  margin-bottom: auto;
+}
+.dishDet {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: flex-start;
+  align-items: flex-start;
+  width: 50%;
+}
+.greenCont {
+  height: 30px;
+  width: 30px;
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-start;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.GreenPara {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background-color: green;
+  color: green;
+}
+
+.redCont {
+  height: 30px;
+  margin-top: 20px;
+  width: 30px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-start;
+}
+.redPara {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background-color: red;
+  color: red;
+}

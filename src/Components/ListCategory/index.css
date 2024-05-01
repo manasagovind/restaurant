@@ -1,0 +1,18 @@
+.active {
+  align-self: flex-stretch;
+  background-color: none;
+  border-bottom: 1px solid #d83939;
+}
+.nonActive {
+  align-self: flex-stretch;
+  background-color: none;
+}
+button {
+  background-color: transparent;
+  border: none;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+.activebu {
+  color: #d83939;
+}

@@ -1,0 +1,7 @@
+.listCat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 1px 1px 1px 1px;
+  padding: 20px;
+}
